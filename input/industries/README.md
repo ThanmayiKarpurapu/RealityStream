@@ -10,12 +10,8 @@ Backup resides at realitystream/models/Run-Models-bkup.ipynb
 
 Data prep for [Industry Features and Targets](../../../data-pipeline/timelines)
 
-**TO DO**
-- Send report files to Github as last step in Run Models colab
-- Fetch an index.html file from a Github link and send it to the report folder.
-- Allow user to save their own Github account using a field near top of colab.
-- Store multiple a yaml configs in user's browser localStorage
-- Run data updates automatically quarterly with Github Actions
+- Send report files to Github as last step in Run Models colab - DONE
+- Fetch an index.html file from a Github link and send it to the report folder. - DONE
 
 ## Features Data
 

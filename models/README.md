@@ -27,12 +27,13 @@ Select one or more models, then paste the resulting yaml in the Run Models CoLab
 - **Common Use**: Fraud detection, bioinformatics, credit scoring.
 - **Limitations**: Less interpretable, computationally expensive with large datasets.
 
-## <input type="checkbox" id="model-rbf" name="model" value="rbf"> Random Bits Forest (rbf)
+## <input type="checkbox" id="model-rbf" name="model" value="rbf"> Random Bits Forest (rbf) - Not Yet Added
 - **Type**: Variation of Random Forests using bit-based transformations for feature splitting.
 - **Key Feature**: Efficient handling of high-dimensional, binary, or sparse data.
 - **Best for**: Cybersecurity, large-scale categorical or binary feature data.
 - **Common Use**: High-dimensional binary datasets, one-hot encoded data.
 - **Limitations**: May not perform as well on general-purpose or continuous feature datasets.
+[Eye Blink Data](random-bits-forest/) - Sample to add to colab
 
 ## <input type="checkbox" id="model-svm" name="model" value="svm"> Support Vector Machines (svm) - Runs Slow
 

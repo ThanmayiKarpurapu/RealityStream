@@ -27,7 +27,7 @@ Select one or more models, then paste the resulting yaml in the Run Models CoLab
 - **Common Use**: Fraud detection, bioinformatics, credit scoring.
 - **Limitations**: Less interpretable, computationally expensive with large datasets.
 
-## <input type="checkbox" id="model-rbf" name="model" value="rbf"> Random Bits Forest (rbf) - Not Yet Added
+## <input type="checkbox" id="model-rbf" name="model" value="rbf"> Random Bits Forest (rbf)
 - **Type**: Variation of Random Forests using bit-based transformations for feature splitting.
 - **Key Feature**: Efficient handling of high-dimensional, binary, or sparse data.
 - **Best for**: Cybersecurity, large-scale categorical or binary feature data.

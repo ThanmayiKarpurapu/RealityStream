@@ -1,7 +1,9 @@
 Our [Run Models CoLab](input/industries) provides Logistic Regression, Support Vector Machines (SVM), MLP, XGBoost and two Random Forests.
 
-Our main input is currently industry features by county ID (FIPS) for exploring environmental impact targets (like [bee data](../bee-data)).  
-We are also creating [CoLabs for Exiobase International Trade Flow](https://model.earth/profile/trade).
+Paths for **features** and **targets** are joined based on location IDs (state or county FIPS, etc.) or brain regions for [eye blink predictions](models/random-bits-forest/).
+
+Our main input is currently industry features by county ID (FIPS) for exploring environmental impact targets like [bee data](../bee-data) and [tree canopy](https://model.earth/tree-canopy/).  
+We are also preping data for [International Trade Flow](https://model.earth/profile/trade).
 
 
 [Run-Models-bkup.ipynb](https://github.com/ModelEarth/realitystream/tree/main/models) is a backup of the [Run Models CoLab](https://colab.research.google.com/drive/1zu0WcCiIJ5X3iN1Hd1KSW4dGn0JuodB8?usp=sharing) that we run locally. We append "-bkup" to indicate it is not the primary source.
@@ -10,6 +12,8 @@ Learn about our [cuML GPU speed enhancements - and SMOTE balancing of our classe
 We're using [SHAP to explain our model predictions](shap)
 
 <h2>Design your Stream</h2>
+
+<div id="parambase"></div>
 
 **Bee YAML Updated** - Changed [bee data](/bee-data) target to bees-targets-top-20-percent.csv in parameters yaml. This new "colony density" target uses the top 20% of counties with the highest bee population density (rather than top colony growth between years, as was used in bees-targets.csv).
 

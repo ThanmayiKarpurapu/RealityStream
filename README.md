@@ -19,13 +19,16 @@ Density file: bees-targets-top-20-percent.csv. Shashank worked from bees-populat
 -->
 
 In the CoLab, a select menu allows you to choose default parameter yaml paths set in [parameter-paths.csv](https://github.com/ModelEarth/realitystream/blob/main/parameters/parameter-paths.csv).
-[parameters-simple.yaml](https://raw.githubusercontent.com/ModelEarth/realitystream/main/parameters/parameters-simple.yaml) - 2020, just Maine
-[parameters.yaml](https://raw.githubusercontent.com/ModelEarth/realitystream/main/parameters/parameters.yaml) - Predicts bee density by industry  
-[parameters-years.yaml](https://raw.githubusercontent.com/ModelEarth/realitystream/main/parameters/parameters-years.yaml) - For testing with multiple years and states (currently same as parameters.yaml).  Uses bee populatin growth.
-[parameters-zip.yaml](https://raw.githubusercontent.com/ModelEarth/realitystream/main/parameters/parameters-zip.yaml) - Needs zip code target. Uses bee populatin growth.  
+[parameters-simple.yaml](https://raw.githubusercontent.com/ModelEarth/realitystream/main/parameters/parameters-simple.yaml) - Bee density for 2020 for Maine and New York by top industries (2-digits)
+[parameters.yaml](https://raw.githubusercontent.com/ModelEarth/realitystream/main/parameters/parameters.yaml) - Predicts bee density by industry (6-digit NAICS) for New England states 2017 to 2021
+[parameters-gdc.yaml](https://raw.githubusercontent.com/ModelEarth/realitystream/main/parameters/parameters-gdc.yaml) - Google Data Commons - Predicting states using demographics
+[parameters-zip.yaml](https://raw.githubusercontent.com/ModelEarth/realitystream/main/parameters/parameters-zip.yaml) - Needs zip code target. Uses bee population density.  
 [parameters-blinks.yaml](https://raw.githubusercontent.com/ModelEarth/realitystream/main/parameters/parameters-blinks.yaml) - Uses only features dataset (which contains the target column).
 
 <!--
+
+[parameters-years.yaml](https://raw.githubusercontent.com/ModelEarth/realitystream/main/parameters/parameters-years.yaml) - For testing with multiple years and states (currently same as parameters.yaml).
+
 TO DO: Web page displaying US counties at risk of increased poverty - Use Google Data Commons API for FIPS county poverty target data and international target data. Pull with an [Observable Data Loader](../../../timelines/observable/)
 -->
 

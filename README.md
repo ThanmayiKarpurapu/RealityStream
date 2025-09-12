@@ -13,8 +13,6 @@ We're using [SHAP to explain our model predictions](shap)
 
 <h2>Design your Stream</h2>
 
-<div id="parambase"></div>
-
 **Bee YAML Updated** - Changed [bee data](/bee-data) target to bees-targets-top-20-percent.csv in parameters yaml. This new "colony density" target uses the top 20% of counties with the highest bee population density (rather than top colony growth between years, as was used in bees-targets.csv).
 
 <!--
@@ -38,7 +36,7 @@ TO DO: Web page displaying US counties at risk of increased poverty - Use Google
 
 TO DO: Top ten counties in each state likely to have [declining tree canopy](/data-pipeline/research/canopy/)
 
-TO DO: Within Run Models, add python pull from Google Data Commons API for population, education levels, income/poverty levels to use as both features and targets.
+TO DO: Within Run Models, add python pull from Google Data Commons API for population, education levels, income/poverty levels to use as both features and targets. - IN PROGRESS
 
 TO DO: Use [Tensorflow.org](https://www.tensorflow.org/js/demos) for [Neural Network predictions](https://www.tensorflow.org/s/results/?q=neural%20networks) with our training data.
 
